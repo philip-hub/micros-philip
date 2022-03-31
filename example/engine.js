@@ -18,8 +18,15 @@ const ctx = canvas.getContext("2d");
 let lastProgram = null;
 
 function exampleFunction() {
-  console.log("you made it!");
+  console.log("philip made it!");
 }
+
+
+function graphFunction(equation) {
+  console.log("Philip was here");
+}
+
+
 
 // Add code here to create your Microworld functions
 // This whole template is run on initialization
