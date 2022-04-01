@@ -1,6 +1,6 @@
 {
-  "name": "pixeldough",
-  "documentation": "https://micros.hackclub.dev/pixeldough/docs.md",
-  "template": "https://micros.hackclub.dev/pixeldough/engine.js",
-  "programAddress": "https://micros.hackclub.dev/pixeldough/default.js"
+  "name": "example-test",
+  "documentation": "http://127.0.0.1:8080/example/docs.md",
+  "template": "http://127.0.0.1:8080/example/engine.js",
+  "programAddress": "http://127.0.0.1:8080/example/default.js"
 }
