@@ -2,15 +2,44 @@
 
 // Add code here to change the HTML and styles in the viewing panel
 document.body.innerHTML = `
-  <style>
-    canvas {
-      background: white;
-    }
-  </style>
+<style>
+  body {
+    margin: 0px;
+  }
+  
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background: darkgrey;
+    overflow: scroll;
+  }
 
-  <main>
-    <canvas></canvas>
-  </main>
+  .options {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+  }
+
+  canvas {
+    background: white;
+  }
+</style>
+
+<main>
+  <canvas></canvas>
+  <div class="options">
+    <div>
+      <span>draw turtles:</span>
+      <input type="checkbox" checked="true" class="draw-turtles"></input>
+    </div>
+    <!-- <button class="download">download image</button> -->
+  </div>
+</main>
 `
 
 const canvas = document.querySelector("canvas");
