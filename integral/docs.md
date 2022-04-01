@@ -1,7 +1,6 @@
 # Example Template
 
-This is where your Microworld documentation would go!
-
+Heyo Philip Here
 ```
 // Example function. This logs "you made it!" into the JavaScript console.
 exampleFunction();
