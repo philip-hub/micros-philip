@@ -1,20 +1,13 @@
-/*
-  Hit the "docs" button to get started 
-  drawing with Turtles!
-*/
 
-const w = 509;
-const h = 579;
+//example preset varibles
+// let firstTerm = 1/(2*3.14)**.5
+// let e = 2.71
+// const eq = x => firstTerm*(e**((-1*(x-0)**2)/2**2))
 
-setCanvasSize(w, h);
-fillScreen("white");
-
-const t = createTurtle(w/2, h/2);
-
-t.setSize(241);
-
-for (let i = 0; i < 430; i += 1) {
-  t.setColor(`hsla(${25.3*i}, ${101}%, ${59}%, ${41}%)`)
-  t.forward(i);
-  t.right(87);
-}
+const width = 4;
+const x_scale = 4;
+const y_scale = 4;
+const eq = x =>((x**1.3)/8)
+// the two functions
+graphEquation(eq, x_scale, y_scale)
+trapizoid(eq, width, x_scale, y_scale)
